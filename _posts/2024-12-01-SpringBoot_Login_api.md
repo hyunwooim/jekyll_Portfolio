@@ -4,7 +4,6 @@ author: hyunw09
 date: 2024-12-01
 category: Portfolio
 layout: post
-mermaid: true
 ---
 
 ### ​파일구조
