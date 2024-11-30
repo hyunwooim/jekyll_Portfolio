@@ -1,10 +1,9 @@
 ---
-title: Using Footnotes
+title: SpringBoot Login api
 author: Tao He
-date: 2023-12-12
+date: 2024-12-01
 category: Portfolio
 layout: post
-mermaid: true
 ---
 
 This jekyll-theme supports [MathJax](https://www.mathjax.org/) to render footnotes
