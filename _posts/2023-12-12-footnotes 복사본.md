@@ -6,119 +6,81 @@ category: Portfolio
 layout: post
 ---
 
-This jekyll-theme supports [MathJax](https://www.mathjax.org/) to render footnotes
-in markdown.
+### ​파일구조
+------------
 
-e.g.,
-
-```markdown
-The well known Pythagorean theorem $x^2 + y^2 = z^2$ was
-proved to be invalid for other exponents[^1].
-Meaning the next equation has no integer solutions:
-
-$$ x^n + y^n = z^n $$
+	└── example
+        ├── Application.java
+        ├── UserRepository.java
+        ├── controller
+        │   ├── LoginController.java
+        │   └── UserController.java
+        ├── dto
+        │   ├── LoginRequest.java
+        │   ├── VerifyUserEmailRequest.java
+        │   └── VerifyUserIdRequest.java
+        ├── model
+        │   └── User.java
+        └── service
+            └── UserService.java
+        
+		
+### User.java
+-----------
+```java
+@Document(collection = "user")  
+public class User {  
+    @Id  
+    private String userId;  
+    private String userEmail;  
+    private String password;  
+  
+    // 기본 생성자  
+    public User() {  
+    }  
+    // 매개변수가 있는 생성자  
+    public User(String userId, String userEmail, String password) {  
+        this.userId = userId;  
+        this.userEmail = userEmail;  
+        this.password = password;  
+    }  
+  
+    // Getter 및 Setter  
+    public String getUserId() {  
+        return userId;  
+    }  
+  
+    public void setUserId(String userId) {  
+        this.userId = userId;  
+    }  
+  
+    public String getUserEmail() {  
+        return userEmail;  
+    }  
+  
+    public void setUserEmail(String userEmail) {  
+        this.userEmail = userEmail;  
+    }  
+  
+    public String getPassword() {  
+        return password;  
+    }  
+  
+    public void setPassword(String password) {  
+        this.password = password;  
+    }  
+}
 ```
 
-The well known Pythagorean theorem $x^2 + y^2 = z^2$ was
-proved to be invalid for other exponents[^1].
-Meaning the next equation has no integer solutions:
+### UserRepository.java
+--------
+```java
+public interface UserRepository extends MongoRepository<User, String> {  
+  
+    Optional<User> findByUserEmail(String userEmail);  
+    boolean existsByUserEmailAndPassword(String userEmail, String password);  
+    boolean existsByUserEmail(String userEmail);  
+    // 기본 CRUD 메서드가 자동으로 제공됩니다.  
+}
+```
 
-$$ x^n + y^n = z^n $$
-
-Long contents
--------------
-
-long contents .....
-
-1. a
-2. b
-3. c
-4. d
-
-### Sub title 1
-
-### Sub title 2
-
-### Sub title 3
-
-Long contents
--------------
-
-long contents .....
-
-1. a
-2. b
-3. c
-4. d
-
-### Sub title 1
-
-### Sub title 2
-
-### Sub title 3
-
-Long contents
--------------
-
-long contents .....
-
-1. a
-2. b
-3. c
-4. d
-
-### Sub title 1
-
-### Sub title 2
-
-### Sub title 3
-
-Long contents
--------------
-
-long contents .....
-
-1. a
-2. b
-3. c
-4. d
-
-### Sub title 1
-
-### Sub title 2
-
-### Sub title 3
-
-Long contents
--------------
-
-long contents .....
-
-1. a
-2. b
-3. c
-4. d
-
-### Sub title 1
-
-### Sub title 2
-
-### Sub title 3
-
-Long contents
--------------
-
-long contents .....
-
-1. a
-2. b
-3. c
-4. d
-
-### Sub title 1
-
-### Sub title 2
-
-### Sub title 3
-
-[^1]: [https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem](https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem)
