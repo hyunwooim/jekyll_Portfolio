@@ -9,7 +9,7 @@ description: >
 version:          1.0
 gitbook_version:  3.2.3
 
-url:              'https://hyunwooim.github.io/jekyll_Portfolio'
+url:              'https://hyunwooim.github.io'
 baseurl:          '/jekyll_Portfolio'
 rss:              RSS
 
