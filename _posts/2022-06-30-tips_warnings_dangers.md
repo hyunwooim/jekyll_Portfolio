@@ -2,7 +2,7 @@
 title: Tips, Warnings, and Dangers
 author: Tao He
 date: 2022-06-30
-category: Jekyll
+category: Portfolio
 layout: post
 ---
 
