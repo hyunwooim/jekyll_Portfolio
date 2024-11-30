@@ -1,10 +1,12 @@
 ---
-title: SpringBoot Login api
+title: Using Footnotes
 author: Tao He
-date: 2024-12-01
+date: 2023-12-12
 category: Portfolio
 layout: post
+mermaid: true
 ---
+
 
 ### ​파일구조
 ------------
