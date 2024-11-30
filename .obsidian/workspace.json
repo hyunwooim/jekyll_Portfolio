@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/test/setset.md",
+                "file": "_posts/2024-12-01.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "setset"
+              "title": "2024-12-01"
             }
           }
         ]
@@ -93,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2024-12-01.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "백링크"
+              "title": "2024-12-01의 백링크"
             }
           },
           {
@@ -137,10 +138,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/test/setset.md"
+                "file": "_posts/2024-12-01.md"
               },
               "icon": "lucide-list",
-              "title": "setset 개요"
+              "title": "2024-12-01 개요"
             }
           },
           {
@@ -171,13 +172,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0ae577d4a1c6706b",
+  "active": "44a04d2ce9406626",
   "lastOpenFiles": [
+    "_posts/2024-12-01.md",
     "assets/dinosaur.gif",
+    "README.md",
+    "git",
+    "무제 파일.md",
+    "_posts/2023-12-12-footnotes.md",
+    "_posts/2019-04-28-howto.md",
+    "_posts/2019-04-27-why.md",
     "_posts/test/setset.md",
     "_posts/test",
     "_posts/test/\"SpringBoot\"-.md",
-    "_posts/2023-12-12-footnotes.md",
     "_pages/test/test.md",
     "_pages/test",
     "_posts/2022-06-30-tips_warnings_dangers.md",
@@ -188,8 +195,6 @@
     "2024-12-01.md",
     "무제 파일.canvas",
     "_posts/test.md",
-    "_posts/2019-04-28-howto.md",
-    "_posts/2019-04-27-why.md",
     "_posts/2023-08-31-mermaid.md",
     "_posts/2023-10-14-math-latex.md"
   ]
