@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "207479f515721855",
+        "id": "7df84bea6c7c78f0",
         "type": "tabs",
         "children": [
           {
-            "id": "44a04d2ce9406626",
+            "id": "b4b1278476428c8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -172,10 +172,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "44a04d2ce9406626",
+  "active": "577bc98ec939f0af",
   "lastOpenFiles": [
-    "_posts/2023-12-12-footnotes.md",
-    "_posts/2023-12-12-sprint.md",
+    "_pages/2023-12-12-footnotes.md",
+    "assets/dinosaur.gif",
+    "_pages/2023-12-12-sprint.md",
     "_posts/2024-12-01-spring.md",
     "assets/gitbook/images/apple-touch-icon-precomposed-152.png",
     "README.md",
@@ -189,7 +190,6 @@
     "_posts/2019-04-27-why.md",
     "_posts/2019-04-29-license.md",
     "2024-12-01.md",
-    "assets/dinosaur.gif",
     "git",
     "무제 파일.md",
     "_posts/test/setset.md",
